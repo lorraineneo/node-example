@@ -1,3 +1,4 @@
+//THIS IS THE SERVER ... REMEMBER!!!
 var express = require('express');
 var app = express();
 
