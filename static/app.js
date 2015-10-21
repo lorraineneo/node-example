@@ -3,6 +3,10 @@ $(function() {
   $('button').on("click", function(){
     setupJoke();
   });
+
+  $('#upvote').on("click", function() {
+   $.post("/upvote");
+  });
 });
 
 var setupJoke = function(){
